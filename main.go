@@ -31,6 +31,6 @@ func main() {
 	http.HandleFunc("/products/delete", productcontroller.Delete)
 
 	// Run server
-	log.Println("Server running on port: 8080")
-	log.Fatal(http.ListenAndServe(":8080", nil))
+	log.Println("Server running on port: 7272")
+	log.Fatal(http.ListenAndServe(":7272", nil))
 }
